@@ -1,0 +1,51 @@
+<div class="pageCont">
+    <section class="page-section about-heading">
+        <div class="container">
+            <img class="img-fluid rounded about-heading-img mb-3 mb-lg-0" src="src/img/introSL.jpg" alt="">
+            <div class="about-heading-content">
+                <div class="row">
+                    <div class="col-xl-9 col-lg-10 mx-auto">
+                        <div class="bg-faded rounded p-5">
+                            <h2 class="section-heading mb-4">
+                                <span class="section-heading-lower">Contact Information</span>
+                                <span class="section-heading-upper">Address</span>
+                            </h2>
+                            <p>Suite Living</p>
+                            <p>1256 North 400 West</p>
+                            <p>Marion, IN 46952</p>
+                            <br>
+                            <h2 class="section-heading mb-4">
+                                <span class="section-heading-upper">Phone</span>
+                            </h2>
+                            <p>765-384-4323</p>
+                            <div class = "container">
+                            <iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;hl=en&amp;geocode=&amp;q=1256+N+400+W,+Marion+IN+46952&amp;sll=37.0625,-95.677068&amp;sspn=44.744674,99.052734&amp;ie=UTF8&amp;s=AARTsJods3YOMjx5zc_Z6zMpL8-GxBOy2g&amp;ll=40.588016,-85.741596&amp;spn=0.045626,0.072956&amp;z=13&amp;iwloc=addr&amp;output=embed"></iframe>
+                            <br>
+                            <a href="https://maps.google.com/maps?f=q&amp;hl=en&amp;geocode=&amp;q=1256+N+400+W,+Marion+IN+46952&amp;sll=37.0625,-95.677068&amp;sspn=44.744674,99.052734&amp;ie=UTF8&amp;ll=40.588016,-85.741596&amp;spn=0.045626,0.072956&amp;z=13&amp;iwloc=addr&amp;source=embed" target="_blank"><button type="button" class="btn btn-primary float-left btn-lg">View Larger Map</button></a>
+                            </div>
+                                <br>
+                            <br>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <script type="text/javascript">
+            function initMap() {
+                // The location of Uluru
+                const uluru = { lat: -25.344, lng: 131.036 };
+                // The map, centered at Uluru
+                const map = new google.maps.Map(document.getElementById("map"), {
+                    zoom: 4,
+                    center: uluru,
+                });
+                // The marker, positioned at Uluru
+                const marker = new google.maps.Marker({
+                    position: uluru,
+                    map: map,
+                });
+            }
+        </script>
+    </section>
+</div>
